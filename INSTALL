@@ -1,0 +1,9 @@
+Building GiveCoin
+
+See doc/readme-qt.rst for instructions on building GiveCoin QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of GiveCoin.
+
+See doc/build-*.txt for instructions on building GiveCoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of GiveCoin.

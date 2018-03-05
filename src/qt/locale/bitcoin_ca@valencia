@@ -1,0 +1,16 @@
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ca@valencia" version="2.1">
+<context>
+    <name>AboutDialog</name>
+    <message>
+        <location filename="../forms/aboutdialog.ui" line="+14"/>
+        <source>About GiveCoin</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location line="+39"/>
+        <source>&lt;b&gt;GiveCoin&lt;/b&gt; version</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location line="+41"/>
+        <source>Copyright 
