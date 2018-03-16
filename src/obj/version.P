@@ -1,4 +1,4 @@
 obj/version.o: version.cpp version.h clientversion.h \
- /media/sf_coin/GiveCoin-master/src/obj/build.h
+ /media/sf_coin/source/GiveCoin-master/src/obj/build.h
 version.cpp version.h clientversion.h :
- /media/sf_coin/GiveCoin-master/src/obj/build.h :
+ /media/sf_coin/source/GiveCoin-master/src/obj/build.h :

@@ -1,7 +1,0 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="ru" version="2.1">
-<context>
-    <name>AboutDialog</name>
-    <message>
-        <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About GiveCoin</source>
-        <translation>
