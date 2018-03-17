@@ -32,6 +32,7 @@ script: |
   cd $HOME/build/
   #
   cd GiveCoin
+  chmod +x src/leveldb/build_detect_platform
   export PATH=$STAGING/host/bin:$PATH
   mkdir -p $OUTDIR/src
   git archive HEAD | tar -x -C $OUTDIR/src
@@ -50,10 +51,10 @@ script: |
   export LD_PRELOAD=/usr/lib/faketime/libfaketime.so.1
   export FAKETIME=$REFERENCE_DATETIME
   export TZ=UTC
-  make -f makefile.linux-mingw $MAKEOPTS DEPSDIR=$STAGING givecoind.exe USE_UPNP=0 DEBUGFLAGS="-frandom-seed=GiveCoin" USE_SSE2=1
+  make -f makefile.linux-mingw $MAKEOPTS DEPSDIR=$STAGING GiveCoind.exe USE_UPNP=0 DEBUGFLAGS="-frandom-seed=GiveCoin" USE_SSE2=1
   $HOST-strip GiveCoind.exe
   mkdir $OUTDIR/daemon
-  cp givecoind.exe $OUTDIR/daemon
+  cp GiveCoind.exe $OUTDIR/daemon
   cd ..
   mkdir nsis
   git archive HEAD | tar -x -C nsis
